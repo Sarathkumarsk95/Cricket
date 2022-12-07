@@ -1,12 +1,16 @@
 public class Main {
-    public static void main(String[] args) {
-        Batsman kohli=new Batsman(12000,59,"virat kohli",34);
-        System.out.println("kohli age is"+kohli.age);
-        System.out.println("kohli run is"+kohli.runs);
+    public static void main(String[] args)
+    {
+        raider Ajinkya=new raider(22,5,"Ajinkya",28);
+        System.out.println("Ajinkya raid points is"+Ajinkya.raid_points);
+        System.out.println("Ajinkya super10 is"+Ajinkya.super10);
 
-        Bowler bumrah=new Bowler(200,10,"bumrah",33);
-        System.out.println("bumrah wickets is"+bumrah.wickets);
-        System.out.println("bumrah maiden is"+bumrah.maiden);
+        defender sarath=new defender(55,9,"sarath",25);
+        System.out.println("sarath tackle point is:"+sarath.tackle_points);
+
+        allrounder narender=new allrounder(88,22,"narender",22);
+        System.out.println("narender tacklepoints is:"+narender.tacklepoints);
+
 
     }
 }
